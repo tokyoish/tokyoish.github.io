@@ -14,6 +14,9 @@
   float: right; }*/
 
 /* Jekyll Bootstrap Colors */
+.container{
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+}
 h1, h2, h3, h4 {
   color: #f22430;
 }
