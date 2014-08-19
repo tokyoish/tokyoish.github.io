@@ -11,7 +11,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 title : wrotech
 tagline: do not categolize me
 author :
-  name : Name Lastname
+  name : tokyoish
   email : tokyoish@gmail.com
   github : tokyoish
   twitter : tokyoish
@@ -100,7 +100,7 @@ JB :
   analytics :
     provider : google
     google :
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-53961320-1'
     getclicky :
       site_id :
     mixpanel :
