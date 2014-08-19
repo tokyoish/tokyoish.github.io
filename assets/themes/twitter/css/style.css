@@ -5,10 +5,16 @@
 
 .container-narrow > hr {
   margin: 30px 0; }
-
+.navbar{
+  background: #000;
+  border-radius: 0;}
 .navbar .nav {
   float: right; }
-
+.navbar .nav a,.navbar-brand{
+  color:#fff;}
+.nav>li>a:hover, .nav>li>a:focus{
+  background-color: #333;
+}
 /* posts index */
 .post > h3.title {
   position: relative;
