@@ -1,24 +1,21 @@
 /* Custom container */
 
 /* Replaced with normal container and standard footer */
-/*.container-narrow {
+.container-narrow {
   margin: 0 auto;
   max-width: 700px; }
 
 .container-narrow > hr {
   margin: 30px 0; }
-*/
+
 
 /* Replaced with standard BS3 Navbar */
-/*.navbar .nav {
-  float: right; }*/
+/* .navbar .nav {
+  float: right; } */
 
 /* Jekyll Bootstrap Colors */
-.container{
-  font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
-}
-h1, h2, h3, h4 {
-  color: #f22430;
+h1, h2, h3, h4, .entry-title a {
+  color: #313131;
 }
 #footer {
   background-color: #fdcd60;
@@ -27,6 +24,10 @@ h1, h2, h3, h4 {
 
 
 /* posts index */
+.wt-body{
+  font-size: 18px;
+  line-height: 1.5;
+}
 .post > h3.title {
   position: relative;
   padding-top: 10px; }
