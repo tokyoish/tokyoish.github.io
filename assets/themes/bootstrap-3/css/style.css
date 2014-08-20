@@ -7,22 +7,37 @@
 
 .container-narrow > hr {
   margin: 30px 0; }
-
+.navbar-default{
+  background: #333;
+}
 
 /* Replaced with standard BS3 Navbar */
 /* .navbar .nav {
   float: right; } */
 
 /* Jekyll Bootstrap Colors */
+.navbar-default{
+  border-top: 10px solid #fdcd60;
+}
 h1, h2, h3, h4, .entry-title a {
   color: #313131;
 }
 #footer {
   background-color: #fdcd60;
 }
-
-
-
+.navbar-default .navbar-nav>li>a{
+  color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+  color: #000;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border-top:1px solid #333;
+  border-color:#333;
+}
+.navbar-default .navbar-brand{
+  color: #000;
+}
 /* posts index */
 .wt-body{
   font-size: 18px;
@@ -81,3 +96,7 @@ h1, h2, h3, h4, .entry-title a {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+.social-bot{
+  margin-bottom: 1em;
+}
